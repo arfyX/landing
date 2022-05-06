@@ -4,8 +4,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                yarn i
-		yarn build
 		echo 'Build'
             }
         }
